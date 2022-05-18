@@ -1,1 +1,43 @@
 @import "bootstrap/scss/bootstrap";
+
+h1 {
+  text-align: center;
+  color:darksalmon;
+  background-color: beige;
+  border: solid;
+  border-radius: 20px;
+
+}
+
+.index{
+  background-color: antiquewhite;
+}
+
+.banner{
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+ul {
+  list-style-type: none;
+  height: 100vh;
+  padding: 0;
+
+}
+
+li {
+  margin: 40px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  background-color: burlywood;
+  border-radius: 5px;
+  border: solid;
+}
+
+li a :hover{
+  color: aqua;
+
+}

@@ -1,0 +1,17 @@
+<br>
+<div class='banner'>
+  <h1>Pierrick Restaurant Wish List With his Wife</h1>
+</div>
+
+<div class="index">
+<ul>
+<% @restaurants.each do |restaurant| %>
+  <li>
+  <%= link_to restaurant.name, restaurant_path(restaurant) %>
+  <%=restaurant.category %>
+  </li>
+  <% end %>
+</ul>
+</div>
+
+<%= link_to 'Restaurant List', restaurants_path%>
