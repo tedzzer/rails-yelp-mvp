@@ -41,3 +41,27 @@ li a :hover{
   color: aqua;
 
 }
+
+h2{
+  display: inline;
+}
+
+h2 a{
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
+}
+h2 a :hover {
+  color: aquamarine;
+  background-color: cadetblue;
+  transition: 2s;
+
+
+}
+
+.show{
+  border: solid;
+  background-color: aliceblue;
+}
